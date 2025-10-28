@@ -1,0 +1,142 @@
+*{
+    font-family: "Libertinus Mono", monospace;
+    margin:0%;
+    padding:0%;
+
+}
+nav{
+    width:100%;
+    background-color: black;
+    color:white;
+    padding:25px;
+
+
+}
+links{
+    background-color: azure;
+}
+ul,li,h1{
+    display:inline;
+
+}
+ul{
+    margin-left: 45%;
+
+}
+li{
+    margin-left: 50px;
+    font-weight:800;
+}
+#container{
+    background-image:
+}
+.head{
+    width: 200px;
+    height:150px;
+}
+#container{
+    background-image: url("https://images.unsplash.com/photo-1682778418768-16081e4470a1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+    width:100%;
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.home{
+    padding-top:150px;
+    padding-right: 50px;
+    font-size: 80px;
+    font-weight: 800;
+    
+
+}
+#head{
+    padding-left: 20px;
+    color:black;
+    padding-bottom: 500px;
+    margin-bottom: 500px;
+}
+#about-container{
+    background-image: url("https://img.freepik.com/free-photo/tabletop-looking-out-empty-restaurant_23-2147701293.jpg");
+    width:100%;
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+#head2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800px;
+    padding-left: 600px;
+    color:blanchedalmond;
+    margin-top: 100px;
+}
+#para{
+    font-size: 30px;
+    font-weight: 800;
+    color:bisque;
+    padding-top: 100px;
+}
+#menu-container{
+    padding-top: 20px;
+    background-image: url("https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg");
+    width:100%;
+    height:1250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headdiv{
+    text-align: center;
+
+}
+#head3{
+    font-size: 35px;
+    color: aliceblue;
+}
+.parent{
+    padding-top: 10px;
+    display:flex;
+    justify-content: space-around;
+}
+.card{
+    width:500px;
+    background-color: white;
+    padding:10px;
+}
+
+
+.buybtn{
+    padding-top: 20px;
+    width:50px;
+    height: 30px;
+}
+.contact-container{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIyeSfL0dZIWZqcjLk4cg7QHffmYByBgTXWA&s");
+    padding-top: 20px;
+    width:100%;
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+
+}
+#center{
+    text-align: center;
+    padding-left: 650px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    display: inline;
+    justify-content: space-around;
+   
+}
+.icons{
+    padding-left: 350px;
+     background-image: linear-gradient(to top right orange yellow);
+
+}
