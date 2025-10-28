@@ -1,142 +1,179 @@
-*{
-    font-family: "Libertinus Mono", monospace;
-    margin:0%;
-    padding:0%;
-
-}
-nav{
-    width:100%;
-    background-color: black;
-    color:white;
-    padding:25px;
-
-
-}
-links{
-    background-color: azure;
-}
-ul,li,h1{
-    display:inline;
-
-}
-ul{
-    margin-left: 45%;
-
-}
-li{
-    margin-left: 50px;
-    font-weight:800;
-}
-#container{
-    background-image:
-}
-.head{
-    width: 200px;
-    height:150px;
-}
-#container{
-    background-image: url("https://images.unsplash.com/photo-1682778418768-16081e4470a1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
-    width:100%;
-    height:650px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
-}
-.home{
-    padding-top:150px;
-    padding-right: 50px;
-    font-size: 80px;
-    font-weight: 800;
-    
-
-}
-#head{
-    padding-left: 20px;
-    color:black;
-    padding-bottom: 500px;
-    margin-bottom: 500px;
-}
-#about-container{
-    background-image: url("https://img.freepik.com/free-photo/tabletop-looking-out-empty-restaurant_23-2147701293.jpg");
-    width:100%;
-    height:650px;
-    background-repeat: no-repeat;
-    background-size: cover
-
-}
-#head2{
-    text-align: center;
-    font-size: 50px;
-    font-weight: 800px;
-    padding-left: 600px;
-    color:blanchedalmond;
-    margin-top: 100px;
-}
-#para{
-    font-size: 30px;
-    font-weight: 800;
-    color:bisque;
-    padding-top: 100px;
-}
-#menu-container{
-    padding-top: 20px;
-    background-image: url("https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg");
-    width:100%;
-    height:1250px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.headdiv{
-    text-align: center;
-
-}
-#head3{
-    font-size: 35px;
-    color: aliceblue;
-}
-.parent{
-    padding-top: 10px;
-    display:flex;
-    justify-content: space-around;
-}
-.card{
-    width:500px;
-    background-color: white;
-    padding:10px;
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libertinus Mono", monospace;
 }
 
+/* Navigation */
+nav {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-.buybtn{
-    padding-top: 20px;
-    width:50px;
-    height: 30px;
+nav h1 {
+  font-size: 28px;
+  font-weight: 800;
 }
-.contact-container{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIyeSfL0dZIWZqcjLk4cg7QHffmYByBgTXWA&s");
-    padding-top: 20px;
-    width:100%;
-    height:650px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
 
+.links {
+  list-style: none;
 }
-#center{
-    text-align: center;
-    padding-left: 650px;
-    font-size: 35px;
-    font-weight: 800;
-}
-.icons{
-    display: flex;
-    justify-content: center;
-    display: inline;
-    justify-content: space-around;
-   
-}
-.icons{
-    padding-left: 350px;
-     background-image: linear-gradient(to top right orange yellow);
 
+.links li {
+  display: inline-block;
+  margin-left: 40px;
 }
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: orange;
+}
+
+/* Home Section */
+#container {
+  background: url("https://images.unsplash.com/photo-1682778418768-16081e4470a1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D")
+    no-repeat center center/cover;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#head {
+  font-size: 70px;
+  color: rgb(230, 224, 224);
+}
+
+/* About Section */
+#about-container {
+  background: url("https://img.freepik.com/free-photo/tabletop-looking-out-empty-restaurant_23-2147701293.jpg")
+    no-repeat center center/cover;
+  color: bisque;
+  padding: 80px 100px;
+}
+
+#head2 {
+  text-align: center;
+  font-size: 50px;
+  color: blanchedalmond;
+  margin-bottom: 30px;
+}
+
+#para {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/* Menu Section */
+#menu-container {
+  background: url("https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg")
+    no-repeat center center/cover;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#head3 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-weight: 600;
+}
+
+button {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: orange;
+}
+
+/* Contact Section */
+#contact-container {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIyeSfL0dZIWZqcjLk4cg7QHffmYByBgTXWA&s")
+    no-repeat center center/cover;
+  height: 400px;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+
+#center {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #ffcc33;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icons a {
+  font-size: 40px;
+  color: white;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.icons a:hover {
+  color: #ffcc33;
+  transform: scale(1.2);
+}
+#contact-container {
+  font-size: 20px;
+  color: rgb(6, 6, 6);
+}
+.icon{
+  font-size: 20px;
+  color: rgb(6, 6, 6);
+}
+
